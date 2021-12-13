@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Wellness2/static/css/main.1c72a173.chunk.css",
-    "main.js": "/Wellness2/static/js/main.d3ec34fe.chunk.js",
-    "main.js.map": "/Wellness2/static/js/main.d3ec34fe.chunk.js.map",
+    "main.js": "/Wellness2/static/js/main.95d5a40a.chunk.js",
+    "main.js.map": "/Wellness2/static/js/main.95d5a40a.chunk.js.map",
     "runtime-main.js": "/Wellness2/static/js/runtime-main.cf747ae2.js",
     "runtime-main.js.map": "/Wellness2/static/js/runtime-main.cf747ae2.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/Wellness2/static/css/2.a75f5a2c.chunk.css",
@@ -99,6 +99,6 @@
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.07a9d5ea.chunk.js",
     "static/css/main.1c72a173.chunk.css",
-    "static/js/main.d3ec34fe.chunk.js"
+    "static/js/main.95d5a40a.chunk.js"
   ]
 }
