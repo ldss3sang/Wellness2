@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Wellness2/static/css/main.1c72a173.chunk.css",
-    "main.js": "/Wellness2/static/js/main.ac74e0d6.chunk.js",
-    "main.js.map": "/Wellness2/static/js/main.ac74e0d6.chunk.js.map",
+    "main.js": "/Wellness2/static/js/main.581dc94d.chunk.js",
+    "main.js.map": "/Wellness2/static/js/main.581dc94d.chunk.js.map",
     "runtime-main.js": "/Wellness2/static/js/runtime-main.cf747ae2.js",
     "runtime-main.js.map": "/Wellness2/static/js/runtime-main.cf747ae2.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/Wellness2/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.b14b84ee.chunk.js": "/Wellness2/static/js/2.b14b84ee.chunk.js",
-    "static/js/2.b14b84ee.chunk.js.map": "/Wellness2/static/js/2.b14b84ee.chunk.js.map",
+    "static/js/2.2d572387.chunk.js": "/Wellness2/static/js/2.2d572387.chunk.js",
+    "static/js/2.2d572387.chunk.js.map": "/Wellness2/static/js/2.2d572387.chunk.js.map",
     "index.html": "/Wellness2/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/Wellness2/static/css/2.a75f5a2c.chunk.css.map",
     "static/css/main.1c72a173.chunk.css.map": "/Wellness2/static/css/main.1c72a173.chunk.css.map",
-    "static/js/2.b14b84ee.chunk.js.LICENSE.txt": "/Wellness2/static/js/2.b14b84ee.chunk.js.LICENSE.txt",
+    "static/js/2.2d572387.chunk.js.LICENSE.txt": "/Wellness2/static/js/2.2d572387.chunk.js.LICENSE.txt",
     "static/media/10-card1.ceb45666.jpg": "/Wellness2/static/media/10-card1.ceb45666.jpg",
     "static/media/10-card10.36722945.jpg": "/Wellness2/static/media/10-card10.36722945.jpg",
     "static/media/10-card11.32998e13.jpg": "/Wellness2/static/media/10-card11.32998e13.jpg",
@@ -97,8 +97,8 @@
   "entrypoints": [
     "static/js/runtime-main.cf747ae2.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.b14b84ee.chunk.js",
+    "static/js/2.2d572387.chunk.js",
     "static/css/main.1c72a173.chunk.css",
-    "static/js/main.ac74e0d6.chunk.js"
+    "static/js/main.581dc94d.chunk.js"
   ]
 }
