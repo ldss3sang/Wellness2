@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
-import { BrowserRouter,Route, Switch } from "react-router-dom";
 import NavbarMain from "./components/Navbar";
-import Home1 from "./pages/Home1"
+import Home from "./pages/Home";
 import Tour1 from "./pages/Tour1";
 import Tour2 from "./pages/Tour2";
 import Tour3 from "./pages/Tour3";
@@ -20,15 +20,14 @@ import Tour14 from "./pages/Tour14";
 import Tour15 from "./pages/Tour15";
 import Tour16 from "./pages/Tour16";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div className="App">
+const App = () => {
+  return (
+    <div className="App">
+      <HashRouter>
         <NavbarMain />
-        <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Home1} />
-          <Route path="/tour1" component={Tour1} />
+          <Route path="/" exact component={Home} />
+          <Route path="/tour1" exact component={Tour1} />
           <Route path="/tour2" component={Tour2} />
           <Route path="/tour3" component={Tour3} />
           <Route path="/tour4" component={Tour4} />
@@ -44,11 +43,10 @@ export default class App extends Component {
           <Route path="/tour14" component={Tour14} />
           <Route path="/tour15" component={Tour15} />
           <Route path="/tour16" component={Tour16} />
-
         </Switch>
-       </BrowserRouter>
-      
-      </div>
-    );
-    }
-}
+      </HashRouter>
+    </div>
+  );
+};
+
+export default App;

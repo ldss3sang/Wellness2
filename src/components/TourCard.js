@@ -5,9 +5,8 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
-  Button
+  Button,
 } from "reactstrap";
-import "../App.css";
 
 const TourCard = ({ tourcard }) => {
   const { img, alt, title, subtitle } = tourcard || {};
@@ -15,11 +14,13 @@ const TourCard = ({ tourcard }) => {
     <Card>
       <CardImg top width="100%" src={img} alt={alt} />
       <CardBody>
-        <Button 
-        outline color="secondary" 
-        className="float-right" 
-        href={`tour${tourcard.id}`} >
-         Read more
+        <Button
+          outline
+          color="secondary"
+          className="float-right"
+          href={`#tour${tourcard.id}`}
+        >
+          Read more
         </Button>
 
         <CardTitle>{title}</CardTitle>

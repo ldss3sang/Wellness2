@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Button } from "reactstrap";
-import "../App.css";
 import { ReactComponent as Phone } from "../assets/phone.svg";
 import { ReactComponent as MapPin } from "../assets/map-pin.svg";
 import { ReactComponent as Mail } from "../assets/mail.svg";

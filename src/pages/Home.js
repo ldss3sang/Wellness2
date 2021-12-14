@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import "../App.css";
-import Home from "../components/Home";
+import Main from "../components/Main";
 import Introduction from "../components/Introduction";
 import Package from "../components/Package";
 import Contact from "../components/Contact";
-import Service from "../components/Service"
+import Service from "../components/Service";
 
-class Home1 extends Component {
+class Home extends Component {
   render() {
     return (
-      <div id='home'>
-        <Home />
+      <div>
+        <Main />
         <Introduction />
         <Package />
         <Service />
@@ -20,4 +19,4 @@ class Home1 extends Component {
   }
 }
 
-export default Home1;
+export default Home;

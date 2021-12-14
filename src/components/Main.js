@@ -1,6 +1,6 @@
 import React from "react";
-import "../App.css";
-const Home = () => (
+
+const Main = () => (
   <div>
     <main className="home-page" id="home">
       <section className="wrapped-page">
@@ -13,4 +13,4 @@ const Home = () => (
   </div>
 );
 
-export default Home;
+export default Main;

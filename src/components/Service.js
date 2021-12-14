@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../App.css";
 import { ReactComponent as Instagram } from "../assets/instagram (2).svg";
 import { ReactComponent as Twitter } from "../assets/twitter-sign.svg";
 import { ReactComponent as Facebook } from "../assets/facebook.svg";

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, CardColumns, Badge } from "reactstrap";
 import TourCard from "./TourCard";
-import "../App.css";
 import imgCard1 from "../img/10-card5.jpg";
 import imgCard2 from "../img/10-card4.jpg";
 import imgCard3 from "../img/10-card12.jpg";
@@ -20,16 +19,13 @@ import imgCard15 from "../img/daegu-card1.jpg";
 import imgCard16 from "../img/seoul-card4.jpg";
 
 const tours = [
-  
-  { 
+  {
     id: 1,
     category: ["10대"],
     img: imgCard1,
     alt: "tour",
     title: "<교과 체험학습 추천 리스트>",
     subtitle: "3~4학년 교과 공부 체험",
-  
-
   },
   {
     id: 2,
@@ -37,7 +33,7 @@ const tours = [
     img: imgCard2,
     alt: "tour",
     title: "<교과 체험학습 추천 리스트>",
-    subtitle: "5~6학년 교과 공부 체험"
+    subtitle: "5~6학년 교과 공부 체험",
   },
   {
     id: 3,
@@ -45,7 +41,7 @@ const tours = [
     img: imgCard3,
     alt: "tour",
     title: "<응답하라! 복고 체험지>",
-    subtitle: "어린이날 가볼만한 곳"
+    subtitle: "어린이날 가볼만한 곳",
   },
   {
     id: 4,
@@ -53,7 +49,7 @@ const tours = [
     img: imgCard4,
     alt: "tour",
     title: "<신나는 제주 액티비티>",
-    subtitle: "제주도 짚라인 체험"
+    subtitle: "제주도 짚라인 체험",
   },
   {
     id: 5,
@@ -61,7 +57,7 @@ const tours = [
     img: imgCard5,
     alt: "tour",
     title: "<부산 당일치기 여행코스>",
-    subtitle: "부산에 왔으면 한 번쯤은 꼭 들려줘야지"
+    subtitle: "부산에 왔으면 한 번쯤은 꼭 들려줘야지",
   },
   {
     id: 6,
@@ -69,7 +65,7 @@ const tours = [
     img: imgCard6,
     alt: "tour",
     title: "<용인 카페거리 드라이브 코스>",
-    subtitle: "그 유명한 보정동 핫플"
+    subtitle: "그 유명한 보정동 핫플",
   },
   {
     id: 7,
@@ -77,7 +73,7 @@ const tours = [
     img: imgCard7,
     alt: "tour",
     title: "<수원 데이트 코스>",
-    subtitle: "수원 왔으면 화성행궁 한 번 가줘야지?"
+    subtitle: "수원 왔으면 화성행궁 한 번 가줘야지?",
   },
   {
     id: 8,
@@ -85,7 +81,7 @@ const tours = [
     img: imgCard8,
     alt: "tour",
     title: "<절대 실패하지 않는 제주도 코스>",
-    subtitle: "한정된 시간 속에서 동선도 효율적인 코스"
+    subtitle: "한정된 시간 속에서 동선도 효율적인 코스",
   },
   {
     id: 9,
@@ -93,7 +89,7 @@ const tours = [
     img: imgCard9,
     alt: "tour",
     title: "<성산일출봉 제주도 코스>",
-    subtitle: "예쁜 풍경 실컷 구경하고 싶을 때"
+    subtitle: "예쁜 풍경 실컷 구경하고 싶을 때",
   },
   {
     id: 10,
@@ -101,7 +97,7 @@ const tours = [
     img: imgCard10,
     alt: "tour",
     title: "<언제 걸어도 좋은 수원 화성 코스>",
-    subtitle: "예쁜 분위기에서 산책하고 싶을 때"
+    subtitle: "예쁜 분위기에서 산책하고 싶을 때",
   },
   {
     id: 11,
@@ -109,7 +105,7 @@ const tours = [
     img: imgCard11,
     alt: "tour",
     title: "<부산여행 1박 2일 코스>",
-    subtitle: "심심할 틈 없이 힐링하기"
+    subtitle: "심심할 틈 없이 힐링하기",
   },
   {
     id: 12,
@@ -117,7 +113,7 @@ const tours = [
     img: imgCard12,
     alt: "tour",
     title: "<하루 딱 좋은 울산 여행>",
-    subtitle: "계절마다 색다른 관광지"
+    subtitle: "계절마다 색다른 관광지",
   },
   {
     id: 13,
@@ -125,7 +121,7 @@ const tours = [
     img: imgCard13,
     alt: "tour",
     title: "<청계산 등산 코스>",
-    subtitle: "특히 가을 단풍의 정취를 느끼고 싶을 때"
+    subtitle: "특히 가을 단풍의 정취를 느끼고 싶을 때",
   },
   {
     id: 14,
@@ -133,7 +129,7 @@ const tours = [
     img: imgCard14,
     alt: "tour",
     title: "<무의도 호룡곡산 등산 코스>",
-    subtitle: "섬산의 매력에 빠지다"
+    subtitle: "섬산의 매력에 빠지다",
   },
   {
     id: 15,
@@ -141,7 +137,7 @@ const tours = [
     img: imgCard15,
     alt: "tour",
     title: "<대구 앞산 등산 코스>",
-    subtitle: "유명사찰과 많은 문화유적"
+    subtitle: "유명사찰과 많은 문화유적",
   },
   {
     id: 16,
@@ -149,22 +145,16 @@ const tours = [
     img: imgCard16,
     alt: "tour",
     title: "<서울 걷기 좋은 한강시민공원>",
-    subtitle: "시원한 한강 마주하면서 산책하기"
-  }
+    subtitle: "시원한 한강 마주하면서 산책하기",
+  },
 ];
 
-const itemCategories = [
-  "all",
-  "10대",
-  "20~30대",
-  "40~50대",
-  "60대~",
-];
+const itemCategories = ["all", "10대", "20~30대", "40~50대", "60대~"];
 
 class Package extends Component {
   state = {
     cards: [],
-    category: "all"
+    category: "all",
   };
 
   componentDidMount() {
@@ -185,7 +175,8 @@ class Package extends Component {
               <Badge
                 key={index}
                 href=""
-                color={badge === category ? "dark" : "dark"}
+                color={badge === category ? "dark" : "light"}
+                className={badge === category ? "text-white" : "text-black"}
                 onClick={() => this.setState({ category: badge })}
               >
                 {badge}
@@ -195,16 +186,16 @@ class Package extends Component {
             <Row className="text-left">
               <CardColumns>
                 {category !== "all"
-                  ? cards.map(tourcard => {
-                    return tourcard.category.map(catItem => {
-                      return catItem === category ? (
-                        <TourCard key={tourcard.id} tourcard={tourcard} />
-                      ) : null;
-                    });
-                  })
-                  : cards.map(tourcard => (
-                    <TourCard key={tourcard.id} tourcard={tourcard} />
-                  ))}
+                  ? cards.map((tourcard) => {
+                      return tourcard.category.map((catItem) => {
+                        return catItem === category ? (
+                          <TourCard key={tourcard.id} tourcard={tourcard} />
+                        ) : null;
+                      });
+                    })
+                  : cards.map((tourcard) => (
+                      <TourCard key={tourcard.id} tourcard={tourcard} />
+                    ))}
               </CardColumns>
             </Row>
           </section>

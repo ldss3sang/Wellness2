@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../App.css";
-//import tours from "../components/Package";
 import pimgCard1 from "../img/seoul-card1.jpg";
 import pimgCard2 from "../img/seoul-card2.jpg";
 import pimgCard3 from "../img/seoul-card3.jpg";
@@ -20,12 +18,13 @@ const Tour16 = () => (
           <Col sm="8">
             <div className="tour-desc">
               <p>
-              서울에서 걷기, 조깅하면서 혼자만의 시간을 가지기 위한 코스입니다. 
-              한강시민공원 반포지구, 이촌지구 그리고 잠수교, 세빛둥둥섬 코스입니다. 
-              고속터미널역 7호선 5번출구로 나오면 바로 걷거나 뛸수있는 코스 시작점이 있습니다. 
-              대략 동작대교 남단까지는 걸어서 30분정도, 천천히 뛰면 15분정도면 합니다. 
-              다음으로 동작대교 코스를 이용하면 한적하면서 시원한 거리를 한강과 마주하며 달릴 수 있습니다.
-              
+                서울에서 걷기, 조깅하면서 혼자만의 시간을 가지기 위한
+                코스입니다. 한강시민공원 반포지구, 이촌지구 그리고 잠수교,
+                세빛둥둥섬 코스입니다. 고속터미널역 7호선 5번출구로 나오면 바로
+                걷거나 뛸수있는 코스 시작점이 있습니다. 대략 동작대교 남단까지는
+                걸어서 30분정도, 천천히 뛰면 15분정도면 합니다. 다음으로
+                동작대교 코스를 이용하면 한적하면서 시원한 거리를 한강과
+                마주하며 달릴 수 있습니다.
               </p>
             </div>
           </Col>
@@ -48,7 +47,7 @@ const Tour16 = () => (
         </Row>
       </section>
     </Container>
-</div>
+  </div>
 );
 
 export default Tour16;

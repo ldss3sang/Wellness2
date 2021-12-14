@@ -1,18 +1,16 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
-import "../App.css";
 import MainCarousel from "./Place";
 
 import { ReactComponent as Photo } from "../assets/photo.svg";
-import { ReactComponent as Tour} from "../assets/tour.svg";
+import { ReactComponent as Tour } from "../assets/tour.svg";
 import { ReactComponent as Heart } from "../assets/heart.svg";
 import { ReactComponent as Check } from "../assets/check.svg";
-
 
 class Introduction extends Component {
   render() {
     return (
-      <div id='introduction'>
+      <div id="introduction">
         <MainCarousel />
 
         <div className="subComponent" id="introductionBody">
